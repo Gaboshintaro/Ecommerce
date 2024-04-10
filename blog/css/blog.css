@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    background: url(../blog/img/fondo.jpg);
+    background-repeat: none;
+    background-size: cover;
+    background-attachment: fixed;
+}
+        h1 {
+            text-align: center;
+            color: #fff;
+        }
+
+        h2 {
+            font-family: Arial, Helvetica, sans-serif;
+            color: #fff;
+        }
+
+        h3 {
+            color: rgb(121, 151, 236);
+            text-align: center;
+        }
+
+        h4 {
+            color: #1e1f20;
+        }
+
+        header{
+    text-align: center;
+}
+.nav a{
+    display: inline-block;
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 30px;
+    color: #fff;
+}
+.nav a:hover{
+    padding: auto;
+    border-radius: 5px;
+    background-color: blue;
+}
+.carousel-item{
+    width: 100px;
+}
+#ofertas{
+    margin-left: 10px;
+}
+.informacion{
+padding: 15px 20px;
+background: #dbdbdbdb;
+}
+.informacion h2{
+    text-align: center;
+}
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+footer{
+    background: #fff;
+}
+        .ir{
+            margin-top: 15px;
+    display: flex;
+    justify-content: flex-end;
+        }
+        .ir a{
+            padding: 7px 10px;
+    background-color: #5488a3;
+    color: white;
+    border-radius: 4px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 300ms ease;
+        }
+        .ir a:hover{
+            background-color: orange;
+        }
+        .ofertas{
+            text-align: center;
+        }
